@@ -16,6 +16,8 @@ class StudentsController < ApplicationController
 		end
 	end
 
+#errors were not displaying without the status: on line 15,
+#chatGPT suggested to add 'status: :unprocessable_entity'
 
 
 	private
