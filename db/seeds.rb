@@ -14,6 +14,17 @@ student = Student.create(
 	email: 'frenky@test.au'
 )
 
+# or
+
+# student = Student.create(
+# 	first_name: 'Franky',
+#	 last_name: 'Doyle',
+#	 email: 'frenky@test.au'
+# )
+
+# student.save
+
+
 # create more fake seed data at once
 
 20.times do |i|
