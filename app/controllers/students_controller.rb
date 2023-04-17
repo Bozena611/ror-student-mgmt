@@ -20,6 +20,10 @@ class StudentsController < ApplicationController
 #chatGPT suggested to add 'status: :unprocessable_entity'
 
 
+def show
+	@student = Student.find(params[:id])
+end
+
 	private
 
 	def student_params
